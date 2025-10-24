@@ -1,12 +1,12 @@
-# Session ID - Session Title
+# BTM163 - Turning testing into value with SAP Cloud ALM and SAP Test Automation
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called BTM163 - Turning testing into value with SAP Cloud ALM and SAP Test Automation.
 
 ## Overview
 
-This session introduces attendees to...
+Explore the powerful integration of the SAP Test Automation solution by Tricentis with the SAP Cloud ALM solution. Gain practical insights and skills to streamline and automate testing processes within the framework of SAP Cloud ALM. With no prerequisites and a preconfigured environment provided by SAP, this session is ideal for both newcomers and experienced users looking to explore Test Automation flow through guided exercises.
 
 ## Requirements
 
