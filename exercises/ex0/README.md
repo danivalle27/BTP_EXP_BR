@@ -4,10 +4,10 @@ In this exercise, you will...
 
 ## Install Browser Extension
 
-After completing these steps you will have....
-
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+Tosca Cloud needs browser extensions to automate the following browsers during scans with Tosca XScan and during test execution on team agents:
+- Tricentis Automation Extension for Chrome for tests in [Google Chrome](https://chromewebstore.google.com/detail/tricentis-automation-exte/njjjlolnnicemgigahffncnddbioccpo) 
+- Tricentis Automation Extension for Edge for tests in [Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/tricentis-automation-exte/imcdjpcmdahnfbhbnlocnifhjmoifpdf)
+  <br>![](/exercises/ex0/images/00_00_0010.png)
 
 
 ## Install Launcher
