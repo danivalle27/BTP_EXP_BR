@@ -2,6 +2,8 @@
 
 In this exercise, we will create a test case in SAP Cloud ALM, that is then recorded with Tricentis Test Automation tool.
 
+## Exercise 1.1 - Creating an automated test case in SAP Cloud ALM and enter TTA
+
 1. Click on tab **Implementation** and on tile **Test Preparation**.
 <br>![](/exercises/ex1/images/CALM_Imp_TestPrep.png)
   
@@ -9,7 +11,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 2.	Check, if Project **TechEd Transformation Project** is selected. Press than button "Create"
 <br>![](/exercises/ex1/images/CALM_Create_TC.png)
 
-3.  On the side panel, select
+3.  To create a new test case, enter on the side panel the following values:
     <br>**Type:** Automtated
     <br>**Automation Provider:** TTA_for_SAP
     <br>**Title:** ###-Sales Order Processing for Non-Stock Material (2ET)     *(replace the ### with your user number)*
@@ -21,6 +23,8 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 
 4.   The test case is now created on Cloud ALM side, as well as on TTA side. Jump to TTA by **clicking on the test case name** in the context area.
 <br>![](/exercises/ex1/images/CALM_link_TTA.png)
+
+## Exercise 1.2 - ...
 
 
 ## Summary
