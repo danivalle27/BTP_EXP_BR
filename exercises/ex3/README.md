@@ -1,8 +1,10 @@
 # Exercise 2 - Create another step recording and handover data
 
-In this exercise, we will create...
+In this exercise, we will create a new recording for process Sales Order creation with Quotation Reference.
 
-## Exercise 2.1 Adding Dynamic waits & Increasing Cardinality to re-use the attribute
+## Exercise 2.1 Record process "Creating a Sales Order with Sales Quotation Reference"
+
+## Exercise
 
 
 ## Summary
