@@ -83,20 +83,11 @@ Save your script on the upper right with a click on button **Save**
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-2. Capture the tile **Sales Processing**, rename it to *XXX Select tile* (replace XXX with your user number) and save the module.
+2. Capture the tile **Sales Processing**, rename it to *XXX Select Page* (replace XXX with your user number) and save the module.
 3. Run this step to click on the Sales Processing tile.
-
-## Exercise 1.7 - Re-Scanning of Modules to modify or add extra fields
-
-1. Search for the newly created module *Fiori_Home*, click on Jump to Module next to the + icon.
-2. Module will open in new tab will open, click then on Rescan. (Fiori web page should be kept in the state where you want to capture the new fields)
-3. Add the required fields from the page and save it. Once saved, close the scan window and refresh the module page.
-4. Create a folder and rename it as *Create Sales Quotation* under **Process folder** in the test case.
-5. Add the newest created module. Rename the test step to *Search for the Application in Fiori Home Page* and enter the following values:
-   <br> **Menu-Dropdown:** Apps
-   <br> **Search In: "Apps":** Manage Sales Quotations
-   <br> **Search:** {Click}
-6. Do a run for this test step.--->
+4. Click again on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
+5. Capture the tile **Manage Sales Quotation**, rename it to *XXX Manage Sales Quotation -Tile* (replace XXX with your user number) and save the module.
+6. Run this step to click on the **Manage Sales Quotation tile.
 7. Click on Create Module button, select **Web Application** and click **Start Scan**.
 8. Select again the S/4HANA system browser window and click on button **Scan**.
 9. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
