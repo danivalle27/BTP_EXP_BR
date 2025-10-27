@@ -44,9 +44,11 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
   	<br> - Postcondition  *(Contains post validation steps (Ex: Logout & Close browser))*
 <br>![](/exercises/ex1/images/TTA_Create_Folders.png)
 
+Save your script on the upper right with a click on button **Save**
+
 ## Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system
 
-1. Click to open [SAP S/4HANA system](https://btm163-7rq549xc.eu10-004.alm.cloud.sap/launchpad#Shell-home) and follow the steps below:
+1. Click to open [SAP S/4HANA system]([https://btm163-7rq549xc.eu10-004.alm.cloud.sap/launchpad#Shell-home](https://solman.almdemo.com:44351/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=804&sap-language=EN#Shell-home)) and follow the steps below:
    # add infos here
 
 2. Go back to TTA and click on tab **Modules** in the left panel and then **Create module**
