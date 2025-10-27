@@ -77,13 +77,13 @@ Save your script on the upper right with a click on button **Save**
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
 4. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
     <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
-5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+5. Click on **Save**, select the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
 6. Once login is completed, leave the browser window open - you need it for the next exercise.
-
+<!--
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-2. Capture the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
+2. Capture the search button and the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
 3. Run this step to select the *Apps* in the dropdown. Observe the UI change after selecting Apps from the dropdown; “Search text box” properties changes after selecting the dropdown option.
 
 ## Exercise 1.7 - Re-Scanning of Modules to modify or add extra fields
@@ -96,7 +96,7 @@ Save your script on the upper right with a click on button **Save**
    <br> **Menu-Dropdown:** Apps
    <br> **Search In: "Apps":** Manage Sales Quotations
    <br> **Search:** {Click}
-6. Do a run for this test step.
+6. Do a run for this test step.--->
 7. Click on Create Module button, select **Web Application** and click **Start Scan**.
 8. Select again the S/4HANA system browser window and click on button **Scan**.
 9. Select the button *Create Quotation* in the screen, rename the module to *Manage Sales Quotation - Home Screen* and save.
