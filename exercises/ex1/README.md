@@ -63,7 +63,7 @@ Save your script on the upper right with a click on button **Save**
 6. The XScan application as shown in the below screenshot appears. Select the browser window with the opened S/4HANA system and press button **Scan**.
    <br>![](/exercises/ex1/images/TTA_Xscan_Select_App.png)
 
-7. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find it later in the module area (e.g. *S/4HANA Fiori Login*)
+7. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find your own module later in the module area (e.g. *XXX S/4HANA Fiori Login* (replace XXX by your user number)
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
 8. Click on **Finish Screen** and close the scanning.
@@ -72,10 +72,13 @@ Save your script on the upper right with a click on button **Save**
 
 1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
 2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
-3. Under **Modules** tab on the left panel, search for your newly created module *S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
-4. Pass the value of the user by adding the parameter *Username* as shown below. Enter the password and set the Data type as “Password” for the encryption.
-5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login.
-6. Once login is completed, eave the browser window open - you need it for the next exercise.
+    <br>![](/exercises/ex1/images/TTA_Module_OpenURL.png)
+3. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
+    <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
+4. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
+    <br>![](/exercises/ex1/images/TTA_Enter_Login_Data.png)
+5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
+6. Once login is completed, leave the browser window open - you need it for the next exercise.
 
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
