@@ -125,13 +125,15 @@ Save your script on the upper right with a click on button **Save**
     - **Material:** DM_210
     - **Quantity:** 2
     - **Save:** X
+  <br>![](/exercises/ex1/images/TTA_Quotation_Ready.png)
    
 ## Exercise 1.8 - Rescan Module
 1. After Quotation has been successfully saved, click on the last created module (Details of Quotation) and jump to the module
  <br>![](/exercises/ex1/images/TTA_Jump_Module.png)
 2. Click on Rescan and scan the Save Button in the dialog window
 3. Save your changes, go back to your test steps and click refresh
-4. Set as value for the save button a X
+4. Set as value for the save button a "X"
+5. Run the test step and repeat from step 1 to rescan the SAP Statusbar to capture the success message on the bottom left corner.
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
