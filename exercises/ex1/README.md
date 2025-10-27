@@ -48,22 +48,22 @@ Save your script on the upper right with a click on button **Save**
 
 ## Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system
 
-1. Click to open [SAP S/4HANA system]([https://btm163-7rq549xc.eu10-004.alm.cloud.sap/launchpad#Shell-home](https://solman.almdemo.com:44351/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=804&sap-language=EN#Shell-home)) and follow the steps below:
+1. Click to open [SAP S/4HANA system](https://solman.almdemo.com:44351/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=804&sap-language=EN#Shell-home) and follow the steps below:
    # add infos here
 
-2. Go back to TTA and click on tab **Modules** in the left panel and then **Create module**
+3. Go back to TTA and click on tab **Modules** in the left panel and then **Create module**
    <br>![](/exercises/ex1/images/TTA_Create_Module.png)
 
-3. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (This screen is to select the type of application (Web, Desktop, etc…))
+4. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (This screen is to select the type of application (Web, Desktop, etc…))
     <br>![](/exercises/ex1/images/TTA_Scan_App_Popup.png)
 
-4. It might happen, that the Tricentis Launcher is starting a setup. If this takes longer than 2 minutes, just let us know. The XScan application as shown in the below screenshot appears. Select the browser window with the opened S/4HANA system and press button **Scan**.
+5. It might happen, that the Tricentis Launcher is starting a setup. If this takes longer than 2 minutes, just let us know. The XScan application as shown in the below screenshot appears. Select the browser window with the opened S/4HANA system and press button **Scan**.
    <br>![](/exercises/ex1/images/TTA_XScan_App_Select.png)
 
-5. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find it later in the module area (e.g. *S/4HANA Fiori Login*)
+6. Capture the fields *User Name*, *Password* and the button *Log On*. Mark the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find it later in the module area (e.g. *S/4HANA Fiori Login*)
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
-6. Close the scanning.
+7. Close the scanning.
 
 ## Exercise 1.5 - Creating Login flow as Precondition
 
