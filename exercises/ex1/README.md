@@ -48,7 +48,7 @@ Save your script on the upper right with a click on button **Save**
 
 ## Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system
 
-1. Click via right mouse click > Open in new window [SAP S/4HANA system](https://solman.almdemo.com:44351/sap/bc/ui5_ui5/ui2/ushell/shells/abap/FioriLaunchpad.html?sap-client=804&sap-language=EN#Shell-home).
+1. Click via right mouse click > Open in new window [SAP S/4HANA system](https://flp.tdc.sap.com:50081/sap/bc/ui2/flp?sap-client=001&sap-language=EN#Shell-home).
 
 2. Switch back to TTA tab and click on tab **Modules** in the left panel and then **Create module**
    <br>![](/exercises/ex1/images/TTA_Create_Module.png)
