@@ -72,7 +72,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 5. Click on **Save** and then on button **Run** to run these two steps for a dry run until login.
 6. Once login is completed, eave the browser window open - you need it for the next exercise.
 
-## Exercise 1.6 Creating Modules for Application search in Fiori homepage
+## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
 2. Capture the *All* dropdown menu, rename the module to "Fiori Home" and save the module.
@@ -96,7 +96,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
 11. Add {Click} as Input to the **Create Quotation button**.
 12. Do a dry run for this test step.
 
-## Exercise 1.7 - Record steps for Quoation creation
+## Exercise 1.8 - Record steps for Quoation creation
 
 1. Once the next page is loaded, click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
 2. Select the following controls on this page:
@@ -120,7 +120,7 @@ In this exercise, we will create a test case in SAP Cloud ALM, that is then reco
     - **Cust. Reference:**
     - **Save:**
 
-## Exercise 1.8 Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
+## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
 1. Change the value of **Valid To** to: *{Date[][+1y][yyyy.MM.dd]}* This will replace a static date value, which makes the test case independent from the date of execution. It will now always use todays date + one year.
 2. As next step, we are going to buffer the output data for future use. For this, we are using the command {XB[Buffer Name]} - X buffers are used to verify the pattern and buffer the required section.
