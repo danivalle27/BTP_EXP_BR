@@ -95,11 +95,12 @@ Save your script on the upper right with a click on button **Save**
 
 1. Once the next page is loaded, click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
 2. Select the following controls on this page:
-    <br> **Quotation Type, Sales Organization, Distribution Channel, Division, Sales Office, Sales Group**
+    <br> **Quotation Type, Sales Organization, Distribution Channel, Division**
 3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.
 4. Remember the module name and save the module.
 5. Add this module now to the test case and insert the following values in the test step
 6. “X” can be used instead of {Click} for Buttons & Links.
+  <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data.png)
 7. Do a dry run for this test step.
 8. Once the next page is loaded, follow the process of creating a new module for the next screen
     <br> - Click on Create Module button
