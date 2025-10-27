@@ -3,7 +3,7 @@
 
 In this exercise, ...
 
-## Exercise 3.1 Reusable Test Blocks
+## Exercise 4.1 Reusable Test Blocks
 
 Reusable test steps are sets of steps that you can reuse across multiple test cases. If anything changes in your application under test and you update your reusable test steps, Tricentis Test Automation for SAP integrated with SAP Cloud ALM automatically updates all test cases that contain them. This reduces test maintenance effort, so you can focus on getting your application ready for release.
 
@@ -15,7 +15,7 @@ Reusable test steps are sets of steps that you can reuse across multiple test ca
 6. The reusable Test Block will open in a new tab. Select the folder and click again the options button (with the three dots). Click on "Create parameter (child to selected)".
 7. Pass the values in the parameters instead of in the Test steps to make it independent.
 
-## Exercise 3.2 Creation of Test Data Set
+## Exercise 4.2 Creation of Test Data Set
 
 If you want to keep your data in cloud and you need to make periodic/regular update of those data using Automation, TTA have the inbuilt feature called Test Data set.
 
