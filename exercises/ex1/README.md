@@ -137,9 +137,9 @@ Save your script on the upper right with a click on button **Save**
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
-1. Change the value of **Valid To** to: *{Date[][+1y][yyyy.MM.dd]}* This will replace a static date value, which makes the test case independent from the date of execution. It will now always use todays date + one year.
+1. Change the value of **Valid To** to: *{Date[][+7d][yyyy.MM.dd]}* This will replace a static date value, which makes the test case independent from the date of execution. It will now always use todays date + 7 days. Replace also the **Customer Reference Date* to {Date} to use always todays date.
 2. As next step, we are going to buffer the output data for future use. For this, we are using the command {XB[Buffer Name]} - X buffers are used to verify the pattern and buffer the required section.
-3. Enter in the **SAP Statusbar** value: Quotation {XB[QuotationID]} hase been saved.
+3. Enter in the **SAP Statusbar** value: Quotation {XB[QuotationID]} has been saved.
 4. Try now for a complete run of Create Sales Quotation test case.
 
 5. Are you getting the sync error while Navigating between the pages? The next exercise will solve that issue ;-)
