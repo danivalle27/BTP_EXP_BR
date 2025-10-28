@@ -60,8 +60,8 @@ You can also directly enter these values by using the syntax : **{TDM[Subset][Co
 **
 And that's it! Your test data is now linked to this particular test action.<br>![](/exercises/ex4/images/CALM_DS_11.png)
 
-
-
+Repeat the same process for all the values you want to flow from Test Data Set ( Cloud Storage)
+<br>![](/exercises/ex4/images/CALM_DS_12.png)
 
 ## Summary
 
