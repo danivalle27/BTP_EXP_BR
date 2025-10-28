@@ -10,11 +10,9 @@ Explore the powerful integration of the SAP Test Automation solution by Tricenti
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are... none :) just go ahead and follow the instructions to make your first steps in test automation.
 
 ## Exercises
-
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Creating an automated test case with TTA from SAP Cloud ALM](exercises/ex1/)
@@ -40,14 +38,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 4.1 - Reusable Test Blocks](exercises/ex4#exercise-41-reusable-test-blocks)
     - [Exercise 4.2 - Creation of Test Data Set](exercises/ex4#exercise-42-creation-of-test-data-set)
 
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
