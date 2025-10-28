@@ -148,4 +148,4 @@ Save your script on the upper right with a click on button **Save**
 
 You have successfully created your first automated test case from SAP Cloud ALM with Tricentis Test Automation. By completing this exercise, you learned how the  tools works together, capture application elements, define reusable modules, and automate a business process from login to quotation creation.
 
-Continue now to - [Exercise 2 - Design the Test Case in Tricentis Test Automation](../ex2/README.md)
+Continue now to - [Exercise 2 - Best Practices for Automation](../ex2/README.md)
