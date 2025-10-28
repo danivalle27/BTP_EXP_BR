@@ -31,11 +31,11 @@ Get your test data into Tricentis Test Automation by SAP, you have 2 options
 To add a small data sample for experimenting or debugging, follow these steps:
 
 1.Go to  Prepare > Test data<br>![](/exercises/ex4/images/CALM_DS_01.png)
-2.Click Create data set<br>![](/exercises/ex4/images/CALM_DS_03.png)
+2.Click Create data set.Data set & Columns names should be business relevant <br>![](/exercises/ex4/images/CALM_DS_03.png)
 3.In the subsequent dialog, define the name of the data set and its first column. Then, select Create.<br>![](/exercises/ex4/images/CALM_DS_04.png)
 
 4.Data set is created with first column, add the columns as per the requirement
-Use the edit options to finalize your new data set. For example, add cell values or more rows.<br>![](/exercises/ex4/images/CALM_DS_05.png)<br>![](/exercises/ex4/images/CALM_DS_06.png)
+Use the edit options to update your data set. For example, add cell values or more columns/rows.<br>![](/exercises/ex4/images/CALM_DS_05.png)<br>![](/exercises/ex4/images/CALM_DS_06.png)
 
 
 To use test data in a test case, you need to link the two:
