@@ -32,4 +32,4 @@ Please find the image below.
 
 You’ve now improved your automated test by applying best practices that make it more stable, efficient, and maintainable. You learned how to use dynamic waits to handle page transitions smoothly, adjust cardinality for reusability, and rename test steps for better readability and business alignment.
 
-Continue with the next step - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue with the next step - [Exercise 3 - Create another step recording and handover data](../ex3/README.md)
