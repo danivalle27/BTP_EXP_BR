@@ -91,10 +91,11 @@ Save your script on the upper right with a click on button **Save**
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
 2. Capture the Search button, rename it to *XXX Click on Search* (replace XXX with your user number) and save the module and close XScan application.
-3. Search for the module in the test case screen, add it and run this step to click on the Search field.
-4. Repeat the steps 1-3 for the search field (name: *XXX Search for Application in Fiori Home page* (replace XXX with your user number).) 
-5. Repeat the steps 1-3 for tile **Manage Sales Quotation** (name: *XXX Manage Sales Quotation -Tile* (replace XXX with your user number)).
-6. Repeat the steps 1-3 for button **Create Quotation** in the screen (name: *Manage Sales Quotation - Home Screen*) and save.
+3. Search for the module in the test case screen and add.
+4. Enter {Click} as value for the OpenSearch field and run this step to click on the Search field.
+5. Repeat the steps 1-3 for the search field (name: *XXX Search for Application in Fiori Home page* (replace XXX with your user number).) 
+6. Repeat the steps 1-3 for tile **Manage Sales Quotation** (name: *XXX Manage Sales Quotation -Tile* (replace XXX with your user number)).
+7. Repeat the steps 1-3 for button **Create Quotation** in the screen (name: *Manage Sales Quotation - Home Screen*) and save.
    <br>![](/exercises/ex1/images/TTA_Quot_Start.png)
 
 
