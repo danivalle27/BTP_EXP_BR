@@ -27,7 +27,17 @@ In this exercise, you will extend your automation by creating a new recording fo
       These buffers are temporarily stored for the session across the workspace.<br>
       Test step should appear as below<br>
       In Sales order type text drop down box use the option available in Value column of the test step and select the value as below.<br>![](/exercises/ex3/images/CALM_SO_16.png)<br>
-17. Capture the next screen
+17. Capture the next screen <br>![](/exercises/ex3/images/CALM_SO_17.png)<br>
+18. Pass the values in the test step as below <br>![](/exercises/ex3/images/CALM_SO_18.png)<br>
+19. Create the module for the next screen , Select the **Standard Order 1#####11 has been saved.** control, Change the **Text** Property to "**Standard Order * has been saved.**" to make it flexible
+20. Select **Identify by** in the scan window (next to **Select on Screen**), Select **Index**<br>![](/exercises/ex3/images/CALM_SO_20.png)<br>
+21. In Identify by Index Pane in the right select the check, now the control will be unique. Remove the Sales order number from the name of the control to make it flexible. and save the module <br>![](/exercises/ex3/images/CALM_SO_21.png)<br>
+22. Add the module as the test step and fill the value as below.
+Here we need to save the Sales Order number for further process or may be to next test case 
+So the {XB[SalesOrderNumber]} has been added in the place of Sales order number displayed in the screen and the action mode as Verify. This will verify the pattern and store the value.(/exercises/ex3/images/CALM_SO_22.png)<br>
+
+
+
 
 
 
