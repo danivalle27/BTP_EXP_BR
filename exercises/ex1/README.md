@@ -90,7 +90,7 @@ Save your script on the upper right with a click on button **Save**
 ## Exercise 1.6 - Creating Modules for Application search in Fiori homepage
 
 1. Click on *Create Module* button on the top left menu. In Scan application screen, select the S/4HANA screen.
-2. Capture the Search button, rename it to *XXX Click on Search* (replace XXX with your user number) and save the module.
+2. Capture the Search button, rename it to *XXX Click on Search* (replace XXX with your user number) and save the module and close XScan application.
 3. Search for the module in the test case screen, add it and run this step to click on the Search field.
 4. Repeat the steps 1-3 for the search field (name: *XXX Search for Application in Fiori Home page* (replace XXX with your user number).) 
 5. Repeat the steps 1-3 for tile **Manage Sales Quotation** (name: *XXX Manage Sales Quotation -Tile* (replace XXX with your user number)).
