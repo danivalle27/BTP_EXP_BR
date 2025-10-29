@@ -13,7 +13,7 @@ In this exercise, you will extend your automation by creating a new recording fo
 5. The folders **Create Sales Quotation** and **Create Sales Order** should appear below the folder **Process**<br>
 6. Change value in the **Search in Apps** text box to *Manage Sales Orders* <br>![](/exercises/ex3/images/CALM_SO_05.png)<br>
 7. Capture the Search results screen <br>![](/exercises/ex3/images/CALM_SO_06.png)<br>
-8. Add the step to the **Create Sales Order **folder <br>![](/exercises/ex3/images/CALM_SO_07.png)<br>
+8. Add the step to the **Create Sales Order** folder <br>![](/exercises/ex3/images/CALM_SO_07.png)<br>
 9. In Manage Sales Order screen, Expand the Create with reference drop down <br>![](/exercises/ex3/images/CALM_SO_08.png)<br>
 10. Capture this screen by using Select on Screen option in the Scan window <br>![](/exercises/ex3/images/CALM_SO_09.png)<br>
 11. Search for the module and jump to the module. Module will open in new tab <br>![](/exercises/ex3/images/CALM_SO_10.png)<br>
