@@ -6,19 +6,19 @@ In this exercise, you will extend your automation by creating a new recording fo
 
 1.Create a Test step folder and name it as "Create Sales Order" under Process.<br>![](/exercises/ex3/images/CALM_SO_01.png)
 
-2. Duplicate the **Search for the Application in Fiori Home Page** from Create Sales Quotation folder<br>![](/exercises/ex3/images/CALM_SO_02.png)
-3. 
-4. Click on the  (3 dots) and select **Duplicate** option <br>![](/exercises/ex3/images/CALM_SO_03.png)<br>
-5. Hover over the duplicated step and click on the icon with the six dots and move the test step to Create Sales Order **<br>![](/exercises/ex3/images/CALM_SO_04.png)<br>
-6. The folders **Create Sales Quotation** and **Create Sales Order** should appear below the folder **Process**<br>
-7. Change value in the **Search in Apps** text box to *Manage Sales Orders* <br>![](/exercises/ex3/images/CALM_SO_05.png)<br>
-8. Capture the Search results screen <br>![](/exercises/ex3/images/CALM_SO_06.png)<br>
-9. Add the step to the Create Sales Order folder <br>![](/exercises/ex3/images/CALM_SO_07.png)<br>
-10. In Manage Sales Order screen, Expand the Create with reference drop down <br>![](/exercises/ex3/images/CALM_SO_08.png)<br>
-11. Capture this screen by using Select on Screen option in the Scan window <br>![](/exercises/ex3/images/CALM_SO_09.png)<br>
-12. Search for the module and jump to the module. Module will open in new tab <br>![](/exercises/ex3/images/CALM_SO_10.png)<br>
-13. Click on the icon with the six dots and move the Create with Reference button to the top.<br>![](/exercises/ex3/images/CALM_SO_11.png)<br>![](/exercises/ex3/images/CALM_SO_12.png)<br>
-14. Go back to the Test case tab and add this module to the Create Sales Order folder <br>![](/exercises/ex3/images/CALM_SO_13.png)<br>
+2. Hover over the **Search for the Application in Fiori Home Page** and Click on the  (3 dots) in the Create Sales Quotation folder<br>![](/exercises/ex3/images/CALM_SO_02.png)
+
+3. Select **Duplicate** option <br>![](/exercises/ex3/images/CALM_SO_03.png)<br>
+4. Hover over the duplicated step and click on the icon with the six dots and move the test step to Create Sales Order **<br>![](/exercises/ex3/images/CALM_SO_04.png)<br>
+5. The folders **Create Sales Quotation** and **Create Sales Order** should appear below the folder **Process**<br>
+6. Change value in the **Search in Apps** text box to *Manage Sales Orders* <br>![](/exercises/ex3/images/CALM_SO_05.png)<br>
+7. Capture the Search results screen <br>![](/exercises/ex3/images/CALM_SO_06.png)<br>
+8. Add the step to the Create Sales Order folder <br>![](/exercises/ex3/images/CALM_SO_07.png)<br>
+9. In Manage Sales Order screen, Expand the Create with reference drop down <br>![](/exercises/ex3/images/CALM_SO_08.png)<br>
+10. Capture this screen by using Select on Screen option in the Scan window <br>![](/exercises/ex3/images/CALM_SO_09.png)<br>
+11. Search for the module and jump to the module. Module will open in new tab <br>![](/exercises/ex3/images/CALM_SO_10.png)<br>
+12. Click on the icon with the six dots and move the Create with Reference button to the top.<br>![](/exercises/ex3/images/CALM_SO_11.png)<br>![](/exercises/ex3/images/CALM_SO_12.png)<br>
+13. Go back to the Test case tab and add this module to the Create Sales Order folder <br>![](/exercises/ex3/images/CALM_SO_13.png)<br>
 14: Pass the Values in test step as below <br>![](/exercises/ex3/images/CALM_SO_14.png)<br>
 15. Capture the next screen <br>![](/exercises/ex3/images/CALM_SO_14.png)<br>
 16. Search & Add this module to the folder. Here we are going to use the Sales Quotation buffered in the previous process<br>
