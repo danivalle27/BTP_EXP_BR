@@ -48,6 +48,7 @@ Save your script on the upper right with a click on button **Save**
 
 ## Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system
 
+
 1. Click via right mouse click > Open in new window [SAP S/4HANA system](https://flp.tdc.sap.com:50081/sap/bc/ui2/flp?sap-client=001&sap-language=EN#Shell-home).
 
 2. Switch back to TTA tab and click on tab **Modules** in the left panel and then **Create module**
@@ -72,7 +73,7 @@ Save your script on the upper right with a click on button **Save**
 
 1. Under **Standard objects** tab on the left panel, search for *OpenURL*, click on + icon next to the module as shown to add it to the test case.
 2. Move the step under the folder **Precondition** and edit the name of the Test step to “Launch Fiori”.
-3. Add the URL of S/4HANA system as value for URL.
+3. Copy the full URL of S/4HANA system and enter that as value for URL.
     <br>![](/exercises/ex1/images/TTA_Module_OpenURL.png)
 4. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
