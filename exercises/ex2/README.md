@@ -10,11 +10,14 @@ In this exercise, you will apply best practices for automation using Tricentis T
 1. Navigate to the first step of folder **Process**.
 2. Select the **searchFieldinShell-select** and navigate in the properties of it to **Cardinality**.
 3. Change the value of Cardinality to 1-n to increase the occurence in this test step. This step should now appear several times successively
+<br>![](/exercises/ex1/images/TTA_Cardinality.png)
+
 4. For the first appearance of it add:
    - **Value:** *Apps * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
    - **Action mode:** WaitOn
 5. For the second appearance of **searchFieldinShell-select** add:
    - **Value:** Apps
+   <br>![](/exercises/ex1/images/TTA_WaitOn.png)
   
 6. Trail run this test step to check the stability and flow check. Once done, add the waits for the next page (Results page).
 7. For this, replace in the second step of folder **Process**, which should be **Search for results** the field **Results**:
