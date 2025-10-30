@@ -133,7 +133,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
   - **Distribution Channel:** 10
   - **Division:** 00
   - **Continue:** X *(Remember: “X” can be used instead of {Click} for values of Buttons & Links.)*
-  <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data.png)
+  <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data2.png)
 6. Run only this test step (just select the step *XXX - Create Quotation (Header Data)* and click **Run**)
 7. Once the next page is loaded, follow the process of creating a new module for the next screen (you know already how it works :) )
 <br> - Click on Create Module button
@@ -154,7 +154,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     - **Material:** DM_210
     - **Quantity:** 2
     - **Save:** X
-  <br>![](/exercises/ex1/images/TTA_Quotation_Ready.png)
+  <br>![](/exercises/ex1/images/TTA_Quotation_Ready2.png)
    
 ## Exercise 1.8 - Rescan Module
 1. After Quotation has been successfully saved, click on the last created module (Details of Quotation) and jump to the module
