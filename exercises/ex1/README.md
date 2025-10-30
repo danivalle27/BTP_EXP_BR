@@ -94,19 +94,33 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 7. Click on **Save**,
 8. Select specifically only the Fiori Login step and click on button **Run** to run only these steps for a dry run until login. You need to focus on the S/4HANA logon window for this.
     <br>![](/exercises/ex1/images/TTA_SelectStep_Run.png)
-9. Once login is completed, leave the browser window open - you need it for the next exercise.
-10. Close the unnecessary windows in S/4 system like Tour and confirm that you **Never** want to save your password. Leave the S/4HANA browser window open. We are going to build on that.
+9. If the logon failed in S/4 due to cookie issue (timeout), just click again on run.
+10. Once login is completed, close the unnecessary windows in S/4 system like Tour and confirm that you **Never** want to save your password. Leave the S/4HANA browser window open. We are going to build on that.
     <br>![](/exercises/ex1/images/TTA_NeverSave_PW.png)
 
 ## Exercise 1.6 - Use prepared Testing Block for your test script
 
-# 1. Enter info here!!!!!
-   <br>![](/exercises/ex1/images/TTA_Quot_Start.png)
+1. Switch back to your test script. For saving time of recording modules, we have prepared for you a Reusable Test Block, which you can use directly inside your test script. We are going to show you later, how to create such Reusable Test Blocks.
+2. In the left panel, click on tab **Reusable test steps**. Click on + for *App Navigation via Tiles* to add it to your script.
+   <br>![](/exercises/ex1/images/TTA_Add_ReusableTB.png)
 
+3. Move your Reusable Test Block under the *Process* folder and enter a X as value for Manage Sales Quotations, as shown in the screenshot below.
+   <br>![](/exercises/ex1/images/TTA_ReusableTB_Move_Value.png)
+
+3. Select only the step *App Navigation via Tiles* and click on **Run**.
+   <br>![](/exercises/ex1/images/TTA_RTB_Run.png)
+
+3. After the run was successfull, leave the S/4HANA system as it is. Switch now back to your Builder (Tosca) and open the Modules again. Add the module "** Template** Click Create Quotation" to add it to your script. You see, you can build your test case from different sources.
+   <br>![](/exercises/ex1/images/TTA_Add_TemplateModule.png)
+
+4. Move the module also to **Process** folder, under the step *App Navigation via Tiles* and enter an "X" as value for Create Quoation button. It is an alternative of using {Click} as value. Select only the "** Template** Click Create Quotation" and click on **Run** to run only this step in the target system.
+      <br>![](/exercises/ex1/images/TTA_Run_Click_CreateQuot.png)
+
+5. We are now ready to create a new Quotation. Let's continue with it and repeat what we have learned by creating again a new module to capture the screen.
 
 ## Exercise 1.7 - Record steps for Quoation creation
 
-1. Once the next page is loaded, click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
+1. Switch back to your Builder (Tosca) and click on button **Create Module**, select Web Application, select the S/4HANA system and click on **Scan**.
 2. Select the following controls on this page:
     <br> **Quotation Type, Sales Organization, Distribution Channel, Division**
 3. Select the *(iframe) Application*; the properties of it appear on the right side. Scroll down to the property **Id** and change it to “__container*-iframe”. The “*” is needed to make the property flexible because the number changes whenever the iframe is refreshed or loaded.
