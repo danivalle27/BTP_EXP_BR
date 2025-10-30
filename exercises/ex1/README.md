@@ -132,10 +132,9 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
   - **Sales Organization:** 1710
   - **Distribution Channel:** 10
   - **Division:** 00
-  - **Continue:** {Click}
-5. Remember: “X” can be used instead of {Click} for values of Buttons & Links.
+  - **Continue:** X *(Remember: “X” can be used instead of {Click} for values of Buttons & Links.)*
   <br>![](/exercises/ex1/images/TTA_Quot_Entry_Data.png)
-6. Run only this test step (just select the step *C* and click **Run**)
+6. Run only this test step (just select the step *XXX - Create Quotation (Header Data)* and click **Run**)
 7. Once the next page is loaded, follow the process of creating a new module for the next screen (you know already how it works :) )
 <br> - Click on Create Module button
 <br> - Select Web Application
@@ -144,10 +143,9 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     - **Input Fields:** Sold-to-Party, Ship-to-Party, Cust. Reference, Cust. Ref. Date, Valid To
     - **Tables:** All Items
     - **Buttons:** Save, Cancel
-10. Select the (iframe) for *Application* and scroll the properties on the right side up to *Id'* property
-11. Edit the *Id* property to “__container*-iframe” to make it independent
-12. Save the module. Remember the name of the modules to search later for it.
-13. Add the new module to the test case and insert the following values to the step:
+  <br>![](/exercises/ex1/images/TTA_Quot_Capture_Details.png)
+8. Rename the module (e.g. *XXX - Create Quotation (Details Data)*) and save it.
+9. Switch back to Builder (Tosca) Add the new module to the test case and insert the following values to the step:
     - **Sold-to-Party:** USCU-L-210
     - **Ship-to-Party:** USCU-L-210
     - **Cust. Reference:** XXX-Test Automation Ref *(replace XXX by your user number)*
