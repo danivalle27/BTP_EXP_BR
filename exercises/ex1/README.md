@@ -169,15 +169,17 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
 6. Run the test step and repeat from step 3 to rescan also the SAP Statusbar to capture the success message on the bottom left corner (we need the Quotation number later to create a Sales Order). Move the SAP Statusbar message in the module themselve to the last position
 7. Finally, it should look like in the screenshot below.
  <br>![](/exercises/ex1/images/TTA_Quot_Details_Rescan2.png)
-8. Run the test step
 
 ## Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)
 
-1. Change the value of **Valid To** to: *{Date[][+7d][yyyy.MM.dd]}* This will replace a static date value, which makes the test case independent from the date of execution. It will now always use todays date + 7 days. Replace also the **Customer Reference Date* to {Date} to use always todays date.
-2. As next step, we are going to buffer the output data for future use. For this, we are using the command {XB[Buffer Name]} - X buffers are used to verify the pattern and buffer the required section.
-3. Enter in the **SAP Statusbar** value: Quotation {XB[QuotationID]} has been saved.
-4. Try now for a complete run of Create Sales Quotation test case.
-
+1. That the script still runs in two weeks or later, we need to adapt the fixed date values. Therefor change the value of 
+  - **Valid To** to: *{Date[][+7d][dd.MM.yyyy]}*  It will now always use todays date + 7 days. 
+  - **Customer Reference Date** to: *{Date[][][dd.MM.yyyy]}* to use always todays date.
+2. As next step, we are going to buffer the output data for future use. For this, we are using the command {XB[Buffer Name]} - X buffers are used to verify the pattern and buffer the required section. For this
+  - Enter in the **SAP Statusbar** value: *Quotation {XB[QuotationID]} has been saved.* and set the Action Mode to *Verify*
+ <br>![](/exercises/ex1/images/TTA_Quot_DynamicPlaceholders.png)
+4. Try now for a complete run of Create Sales Quotation test case:
+  - Close the S/4 browser window, select all steps (or none) of your test script and click on button **Run**
 5. Are you getting the sync error while Navigating between the pages? The next exercise will solve that issue ;-)
 
 ## Summary
