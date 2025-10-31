@@ -21,7 +21,7 @@ In this exercise, you will apply best practices for automation using Tricentis T
    <br>![](/exercises/ex2/images/TTA_WaitOn.png)
   
 6. Trail run this test step to check the stability and flow check. Once done, add the dynamic waits for the next page (Results page).
-7. For this, Select the the second step (**Search for results** ) of folder **Process**, which should have the field **Results**: (If there is no **Results** field not rescan it add the field.
+7. For this, Select the the second step (**Search for results** ) of folder **Process**, which should have the field **Results**: (If there is no **Results** field then rescan the module add the field.
    Hover the the this step Click on 3 dots , jump to the module. Modules opens in a new tab.
    Select the **Result** button. Change the Text Property to **Result***. Save the module & Close the module tab
    <br>![](/exercises/ex2/images/Results.png)
