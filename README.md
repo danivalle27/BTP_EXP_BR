@@ -21,7 +21,7 @@ The requirements to follow the exercises in this repository are... none :) just 
     - [Exercise 1.3 - Initial Setup of the automated test case](exercises/ex1#exercise-13---initial-setup-of-the-automated-test-case)
     - [Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system](exercises/ex1#exercise-14---capturing-the-login-screen-fields-attributes-of-s4hana-system)
     - [Exercise 1.5 - Creating Login flow as Precondition](exercises/ex1#exercise-15---creating-login-flow-as-precondition)
-    - [Exercise 1.6 - Creating Modules for Application search in Fiori homepage](exercises/ex1#exercise-16---creating-modules-for-application-search-in-fiori-homepage)
+    - [Exercise 1.6 - Use prepared Testing Block for your test script](/exercises/ex1#exercise-16---use-prepared-testing-block-for-your-test-script)
     - [Exercise 1.7 - Record steps for Quoation creation](exercises/ex1#exercise-17---record-steps-for-quoation-creation)
     - [Exercise 1.8 - Rescap Module](exercises/ex1#exercise-18---rescan-module)
     - [Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)](exercises/ex1#exercise-19---dynamic-placeholders--buffers-for-future-use-eg-to-use-it-on-following-test-case)
