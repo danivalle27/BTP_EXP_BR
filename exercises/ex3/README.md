@@ -1,4 +1,4 @@
-# Exercise 3 - Create another step recording and handover data
+# (Optional) Exercise 3 - Create another step recording and handover data
 
 In this exercise, you will extend your automation by creating a new recording for the Sales Order creation process using a Sales Quotation as reference. You’ll duplicate existing steps to save effort, structure them into a new folder, and modify values to match the new process. Finally, you’ll learn how to handover data—specifically the quotation number—between test cases to enable seamless end-to-end test automation.
 
