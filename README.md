@@ -23,7 +23,7 @@ The requirements to follow the exercises in this repository are... none :) just 
     - [Exercise 1.5 - Creating Login flow as Precondition](exercises/ex1#exercise-15---creating-login-flow-as-precondition)
     - [Exercise 1.6 - Use prepared Testing Block for your test script](/exercises/ex1#exercise-16---use-prepared-testing-block-for-your-test-script)
     - [Exercise 1.7 - Record steps for Quoation creation](exercises/ex1#exercise-17---record-steps-for-quoation-creation)
-    - [Exercise 1.8 - Rescap Module](exercises/ex1#exercise-18---rescan-module)
+    - [Exercise 1.8 - Rescan Module](exercises/ex1#exercise-18---rescan-module)
     - [Exercise 1.9 - Dynamic Placeholders & Buffers for future use (e.g. to use it on following test case)](exercises/ex1#exercise-19---dynamic-placeholders--buffers-for-future-use-eg-to-use-it-on-following-test-case)
   
 - [Exercise 2 - Best Practices for Automation](exercises/ex2/)
