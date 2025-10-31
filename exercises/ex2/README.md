@@ -32,7 +32,7 @@ As per the best practices, naming of Test steps should be Business relevant.
 Please find the image below and rename your script like shown.
     <br>![](/exercises/ex2/images/TTA_Business_Relevance.png)
 
-This ensures, that also others can understand the flow of the test script, without looking into the details.
+This ensures, that also others can understand the flow of the test script, without looking into the details. Renaming the steps in the script do not change the name of the module in the library themselve.
 
 
 ## Summary
