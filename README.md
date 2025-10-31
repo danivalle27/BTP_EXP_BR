@@ -30,7 +30,7 @@ The requirements to follow the exercises in this repository are... none :) just 
     - [Exercise 2.1 - Adding Dynamic waits & Increasing Cardinality to re-use the attribute](exercises/ex2/README.md#exercise-21-adding-dynamic-waits--increasing-cardinality-to-re-use-the-attribute)
     - [Exercise 2.2 - Naming of Each Test steps & Folders should be Business Relevant](exercises/ex2/README.md#exercise-22-naming-of-each-test-steps--folders-should-be-business-relevant)
 
-- [Exercise 3 - Create another step recording and handover data](exercises/ex3/)
+- [Exercise 3 - (Optional) Create another step recording and handover data](exercises/ex3/)
     - [Exercise 3.1 - Record process "Creating a Sales Order with Sales Quotation Reference"](exercises/ex3#exercise-31-record-process-creating-a-sales-order-with-sales-quotation-reference)
     - [Exercise 3.2 - Handover Quotation Number from Quotation Creation to Sales Order Creation](exercises/ex3#exercise-32-handover-quotation-number-from-quotation-creation-to-sales-order-creation)
  
