@@ -64,7 +64,7 @@ To create one, switch back to TTA tab and click on tab **Modules** in the left p
 6. The XScan application as shown in the below screenshot appears. Select the browser window with the opened S/4HANA system and press button **Scan**.
    <br>![](/exercises/ex1/images/TTA_Xscan_Select_App.png)
 
-7. We recommend to use the advanced mode of Xscan. You can activate it by clicking on "Advanced".
+7. We recommend to use the advanced mode of Xscan. You can activate it by clicking on "Advanced". Click on **Select on Screen** option in the Xscan Window.
 Capture the fields *User Name*, *Password* and the button *Log On*, by just clicking on the UI fields. The captured fields will immediately shown as selected elements in the Xscan Application.
 
 8. Make the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find your own module later in the module area (e.g. *XXX S/4HANA Fiori Login* (replace XXX by your user number)
