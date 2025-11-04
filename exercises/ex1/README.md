@@ -51,7 +51,7 @@ Save your script on the upper right with a click on button **Save**
 1. Click via right mouse click > Open in new window [SAP S/4HANA system](https://flp.tdc.sap.com:50081/sap/bc/ui2/flp?sap-client=001&sap-language=EN#Shell-home). It is important that the S/4 system is opened in a seperate window in Chrome Browser.
 
 2. You are now prepared for creating your first module. Modules are collections of technical controls (objects) that TTA identifies and stores from the application. Each control corresponds to an UI element or API endpoint TTA can automate.
-To create one, switch back to TTA tab and click on tab **Modules** in the left panel and then **Create module**
+To create one, switch back to TTA tab and click on tab **Modules** in the left panel,then Click on**Create** button and select **Create Module** button
    <br>![](/exercises/ex1/images/TTA_Create_Module.png)
 
 3. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (this screen is to select the type of application e.g. Web, Desktop, etc…)
@@ -67,7 +67,7 @@ To create one, switch back to TTA tab and click on tab **Modules** in the left p
 7. We recommend to use the advanced mode of Xscan. You can activate it by clicking on "Advanced". Click on **Select on Screen** option in the Xscan Window.
 Capture the fields *User Name*, *Password* and the button *Log On*, by just clicking on the UI fields. The captured fields will immediately shown as selected elements in the Xscan Application.
 
-8. Make the title of the Log On button more dynamic and unique and rename the module accordingly so that you can easily find your own module later in the module area (e.g. *XXX S/4HANA Fiori Login* (replace XXX by your user number)
+8. Rename the module accordingly so that you can easily find your own module later in the module area (e.g. *XXX S/4HANA Fiori Login* (replace XXX by your user number)
    <br>![](/exercises/ex1/images/TTA_Capture_Login&Rename.png)
 
 9. Click on **Finish Screen** and close the scanning (Close XScan window).
