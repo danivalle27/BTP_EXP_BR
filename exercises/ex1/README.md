@@ -54,10 +54,14 @@ Save your script on the upper right with a click on button **Save**
 To create one, switch back to TTA tab and click on tab **Modules** in the left panel,then Click on**Create** button and select **Create Module** button
    <br>![](/exercises/ex1/images/TTA_Create_Module.png)
 
-3. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (this screen is to select the type of application e.g. Web, Desktop, etc…)
+   Close these Launcher Popups if you find it ( It only appears one time after the launcher installation)
+    <br>![](/exercises/ex1/images/Launcher Popup1.png)
+    <br>![](/exercises/ex1/images/Launcher Popup1.png) 
+
+4. After clicking Create Module button, below pop-up appears. Select the Web Application from the list (this screen is to select the type of application e.g. Web, Desktop, etc…)
     <br>![](/exercises/ex1/images/TTA_Scan_App_Popup.png)
 
-4. It might happen, that the Tricentis Launcher is starting a setup. If this takes longer than 2 minutes, just let us know. You might also to login again with your Cloud ALM credentials. Here they are again for your reference:
+5. It might happen, that the Tricentis Launcher is starting a setup. If this takes longer than 2 minutes, just let us know. You might also to login again with your Cloud ALM credentials. Here they are again for your reference:
    <br>**User:** BTM163-XXX@education.cloud.sap *(replace the XXX with the number which is assigned to you!)*
    <br>**Password:** Acce$$teched25
    
