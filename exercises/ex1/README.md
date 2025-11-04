@@ -88,7 +88,7 @@ Capture the fields *User Name*, *Password* and the button *Log On*, by just clic
     <br>![](/exercises/ex1/images/TTA_Module_OpenURL.png)
     
 4. Edit the name of the Test step *OpenURL* to “Launch Fiori”.
-5. Under **Modules** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
+5. Under **User Assets** tab on the left panel, search for your newly created module *XXX S/4HANA Fiori Login*. Click on + icon next to the module and move it below the *Launch Fiori* step.
     <br>![](/exercises/ex1/images/TTA_Add_Module_Login.png)
 6. Enter the value of the user and the password and set the Data type for password to “Password” for the encryption. Select *'{Click}* as value for the Logon button.
     - **User:** BTM163-X *(replace X with the second digit of your assigned user number, e.g. User = 43 then replace the X with 3)*
