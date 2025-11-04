@@ -8,26 +8,26 @@ In this exercise, you will apply best practices for automation using Tricentis T
 **Cardinality**: We need this *All* dropdown should appear twice in the test step. Instead of duplicating (as it will increase the memory space), TTA have a feature to increase the occurrence.
 
 1. Navigate to the **Create Quotations (Header Data)** step under **Process** folder. Hover over it and click on 3 dots. Select jump to module option.
-2. Module is now opened in a new tab Select the **Create Quotations** button and on the right side navigate in the properties of it to **Cardinality**.
+2. Module is now opened in a new tab Select the **Create Quotations** button and on the right side navigate in the properties of it to **Cardinality**. (Note: If you don't have this button, rescan and add this field to the module as you did it on Exercise 1.8)
 3. Change the value of Cardinality to 1-n to increase the occurence in this test step. This step should now appear several times successively
 <br>![](/exercises/ex2/images/TTA_Cardinality.png) Save the module & Close the tab.
 
 4. Go back to Test case tab (Usually you will land here after you close the module Tab).Save the Test case and refresh the page.
-   Open the Process folder and select the first step.For the first appearance of **searchFieldinShell-select** field add:
-   - **Value:** *Apps * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
+   Open the Process folder and select the first step.For the first appearance of **Create Quotations** button add:
+   - **Value:** Create Quotations (Same as the button name as we are waiting & verifying the text here) )
    - **Action mode:** WaitOn
-5. For the second appearance of **searchFieldinShell-select** add:
-   - **Value:** Apps
+5. Fill the other values as per the requirement
+   -
    <br>![](/exercises/ex2/images/TTA_WaitOn.png)
   
-6. Trail run this test step to check the stability and flow check. Once done, add the dynamic waits for the next page (Results page).
-7. For this, Select the the second step (**Search for results** ) of folder **Process**, which should have the field **Results**: (If there is no **Results** field then rescan the module add the field.
+6. Trail run this test step to check the stability and flow check. Once done, add the dynamic waits for the next page **(Create Quotations (Detail Data))**.
+7. For this, Select the the second step **(Create Quotations (Detail Data))** of folder **Process**, which should have the button **(Create Quotations Overview)** : (If there is no such field then rescan the module add the field.
    Hover the the this step Click on 3 dots , jump to the module. Modules opens in a new tab.
-   Select the **Result** button. Change the Text Property to **Result***. Save the module & Close the module tab
+   Select the **Create Quotations Overview** button. Change the Cardinalilty Property to **1-n*** as above. Save the module & Close the module tab
    <br>![](/exercises/ex2/images/Results.png)
    Navigate to Test case tab and set the value as below
    
-   - **Value:** *Result * (please remove the space between Apps and the asterisk -> not possible in GitHub ;-) )
+   - **Value:** Create Quotations* (please remove everything afer Quotations and insert asterisk -> not possible in GitHub ;-) )
    - **Action mode:** WaitOn
    - <br>![](/exercises/ex2/images/Results1.png)
    
