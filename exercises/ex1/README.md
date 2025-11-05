@@ -28,7 +28,7 @@ In this exercise, you will learn how to create and record an automated test case
 
 1. Before starting any recording in TTA, the Launcher needs to be installed. For this press the **Download** button at the upper right corner and click then on Download.
    <br>![](/exercises/ex1/images/Launcher_Setup.png)
-3. Run the Launcher Setup from Downloads and wait for it to completed. Close the success message
+3. Run the Launcher Setup from Downloads and wait for it to completed. If it is already installed, please use the update option. Close the success message.
 
 ## Exercise 1.3 - Initial Setup of the automated test case
 
