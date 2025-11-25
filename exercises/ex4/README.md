@@ -40,11 +40,6 @@ Use the edit options to update your data set. For example, add cell values or mo
 
 To use test data in a test case, you need to link the two:
 
-1.In your test case, hover over the Value column of the line where you want to use test data. Then, select the wrench icon icon.
-
-Let's say your test case steers a text box called Sales Organization , and you want TTA to enter test data into this text box at runtime. In this case, hover over the Value column of Sales Organization.
-<br>![](/exercises/ex4/images/CALM_DS_07.png)
-
 You can directly enter these values by using the syntax : **{TDM[Subset][ColumnName]}
 **
 And that's it! Your test data is now linked to this particular test action.<br>![](/exercises/ex4/images/CALM_DS_11.png)
