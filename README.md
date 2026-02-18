@@ -1,12 +1,16 @@
-# TRI001 - Turning automation testing into value with SAP Integrated Toolchain, Cloud ALM and SAP Enterprise Continuous Testing
+# TRI001 - Turning automation testing into value with SAP Integrated Toolchain, Cloud ALM and SAP Enterprise Continuous Testing - Tricentis Tosca
+
+## Notes
+
+This version of the training did not include CloudALM and SAP as originally planned due to technical issues. The goals remain the same.
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called BTM163 - Turning testing into value with SAP Cloud ALM and SAP Test Automation.
+This repository contains the material for the G201 - Turning automation testing into value with SAP Integrated Toolchain, Cloud ALM and SAP Enterprise Continuous Testing by Tricentis.
 
 ## Overview
 
-Explore the powerful integration of the SAP Test Automation solution by Tricentis with the SAP Cloud ALM solution. Gain practical insights and skills to streamline and automate testing processes within the framework of SAP Cloud ALM. With no prerequisites and a preconfigured environment provided by SAP, this session is ideal for both newcomers and experienced users looking to explore Test Automation flow through guided exercises.
+Learn the most awarded and powerful test automation tool, supported, recommended and used by SAP - SAP ECT or Tricentis Tosca Cloud!. Gain practical insights and skills to streamline and automate testing processes. With no prerequisites and a preconfigured environment provided by Tricentis, this session is ideal for both newcomers and experienced users looking to explore Test Automation flow through guided exercises.
 
 ## Requirements
 
@@ -15,10 +19,11 @@ The requirements to follow the exercises in this repository are... none :) just 
 ## Exercises
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - Creating an automated test case with TTA from SAP Cloud ALM](exercises/ex1/)
-    - [Exercise 1.1 - Creating an automated test case in SAP Cloud ALM and enter TTA](exercises/ex1#exercise-11---creating-an-automated-test-case-in-sap-cloud-alm-and-enter-tta)
+- [Exercise 1 - Creating an automated test case with Tosca Cloud](exercises/ex1/)
+    - [Exercise 1.1 - First steps to create an automated test case in Tosca Cloud](exercises/ex1#exercise-11---creating-an-automated-test-case-in-sap-cloud-alm-and-enter-tta)
     - [Exercise 1.2 - Install the Launcher](exercises/ex1#exercise-12---install-the-launcher)
     - [Exercise 1.3 - Initial Setup of the automated test case](exercises/ex1#exercise-13---initial-setup-of-the-automated-test-case)
+    - NEED TO UPDATE FROM HERE
     - [Exercise 1.4 - Capturing the Login screen fields (Attributes) of S/4HANA system](exercises/ex1#exercise-14---capturing-the-login-screen-fields-attributes-of-s4hana-system)
     - [Exercise 1.5 - Creating Login flow as Precondition](exercises/ex1#exercise-15---creating-login-flow-as-precondition)
     - [Exercise 1.6 - Use prepared Testing Block for your test script](/exercises/ex1#exercise-16---use-prepared-testing-block-for-your-test-script)
