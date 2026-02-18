@@ -2,7 +2,7 @@
 
 ## Notes
 
-This version of the training did not include CloudALM and SAP as originally planned due to technical issues. The goals remain the same.
+This version of the training does not include CloudALM and SAP as originally planned due to technical issues. The goals remain the same.
 
 ## Description
 
