@@ -1,15 +1,18 @@
 # Getting Started
 
-In this exercise, you will prepare your environment by installing the necessary browser extensions and accessing the SAP system for the first time.
+In this exercise, you will prepare your environment by installing the necessary browser extensions, launcher and accessing application - System Under Test SUT - for the first time.
 
-## Open GitHub Repository in Edge Browser
+Documentation can be found here: https://docs.tricentis.com/tosca-cloud/en-us/content/admin_guide/downloads_and_installations.htm
 
-This is needed to seperate the instructions from the recording. It will make life easier then.
+## Open the GitHub Repository in a Browser
+
+This is needed to seperate the instructions from the recording. It will make life easier then. Any browser can be used but these instructions are for Edge or Chrome.
 
 ## Install Browser Extension
 
-Tosca Cloud needs browser extensions to automate the following browsers during scans with Tosca XScan and during test execution on team agents. Install the browser extension to the browser of your choice. Google Chrome is preferred for this hands-on session.
+Tosca Cloud needs browser extensions to automate the following browsers during scans with Tosca XScan and during test execution on team agents. Install the browser extension to the browser of your choice. Google Chrome or Edge are preferred for this hands-on session.
 - Tricentis Automation Extension for Chrome for tests in [Google Chrome](https://chromewebstore.google.com/detail/tricentis-automation-exte/njjjlolnnicemgigahffncnddbioccpo)
+  
     <br>![](/exercises/ex0/images/Chrome_Extension.png)
 
 
