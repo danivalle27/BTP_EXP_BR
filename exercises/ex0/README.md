@@ -4,9 +4,18 @@ In this exercise, you will prepare your environment by installing the necessary 
 
 Documentation can be found here: https://docs.tricentis.com/tosca-cloud/en-us/content/admin_guide/downloads_and_installations.htm
 
-## Open the GitHub Repository in a Browser
+## Select the browser you will use for reference, documentation, opening Tosca Cloud and the one you will open the application to be tested (SUT)
 
-This is needed to seperate the instructions from the recording. It will make life easier then. Any browser can be used but these instructions are for Edge or Chrome.
+This is so scanning the application is seamless. For instance:
+
+1- Edge for GitHub, Tosca
+2- Chrome for the SUT
+
+For this exercise, we will use this setup.
+
+## Open the GitHub Repository on a separate browser window
+
+This is needed to seperate the instructions from the recording. It will make life easier then.
 
 ## Install Browser Extension
 
@@ -16,7 +25,7 @@ Tosca Cloud needs browser extensions to automate the following browsers during s
     <br>![](/exercises/ex0/images/Chrome_Extension.png)
 
 
-## Logon SAP Cloud ALM
+## Open the SUT on Chrome - CONTINUE EDIT HERE
 
 Click to open [SAP Cloud ALM](https://btm163-7rq549xc.eu10-004.alm.cloud.sap/launchpad#Shell-home) and follow the steps below: 
 1. Click on tdct3ched1.accounts.ondemand.com.
