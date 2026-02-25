@@ -24,11 +24,7 @@ In this exercise, you will learn how to create and record an automated test case
 4.   The test case is now created on Cloud ALM side, as well as on TTA side. Jump to TTA by **clicking on the test case name** in the context area.
 <br>![](/exercises/ex1/images/CALM_link_TTA.png)
 
-## Exercise 1.2 - Install the Launcher
 
-1. Before starting any recording in TTA, the Launcher needs to be installed. For this press the **Download** button at the upper right corner and click then on Download.
-   <br>![](/exercises/ex1/images/Launcher_Setup.png)
-3. Run the Launcher Setup from Downloads and wait for it to completed. If it is already installed, please use the update option. Close the success message.
 
 ## Exercise 1.3 - Initial Setup of the automated test case
 
