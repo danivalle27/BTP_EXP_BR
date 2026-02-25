@@ -1,29 +1,29 @@
-# Exercise 1 - Creating an automated test case with TTA from SAP Cloud ALM
+# Exercises
 
-In this exercise, you will learn how to create and record an automated test case using SAP Cloud ALM together with Tricentis Test Automation (TTA). You will go through the non-polished end-to-end process — from creating a new automated test case in SAP Cloud ALM to configuring parameters, capturing screens, and building the login and process flows in TTA.
+## Exercise 1 - Create an automated test case with Tosca Cloud / SAP ECT
 
-## Exercise 1.1 - Creating an automated test case in SAP Cloud ALM and enter TTA
+In this exercise, you will learn how to create and record an automated test case using Tricentis Tosca Cloud / SAP ECT Cloud. If Cloud ALM is available, we will start with it. Otherwise, skip to the next step.
+
+## Exercise 1.1 - Creating a test case in SAP Cloud ALM 
 
 1. Click on tab **Implementation** and on tile **Test Preparation**.
 <br>![](/exercises/ex1/images/CALM_Imp_TestPrep.png)
   
-
-2.	Check, if Project **TechEd Transformation Project** is selected. Press than button "Create"
+2.	Select a Project if available (or create one). Press the button "Create"
 <br>![](/exercises/ex1/images/CALM_Create_TC.png)
 
 3.  To create a new test case, enter on the side panel the following values:
     <br>**Type:** Automtated
-    <br>**Automation Provider:** TTA_for_SAP
-    <br>**Title:** ###-Sales Order Processing for Non-Stock Material (2ET)     *(replace the ### with your user number)*
-    <br>**Project:** TechEd Transformation Project
-    <br>**Scope:** BTM163 - Cloud ALM & TTA
-    <br>**Solution Process:** Sales Order Processing for Non-Stock Material (2ET)
-    <br>**Country/Region:** Germany
+    <br>**Automation Provider:** TTA_for_SAP (or ECT if available)
+    <br>**Title:** ###-Test Case 1     *(replace the ### with your user number or name)*
+    <br>**Project:** whichever is available
+    <br>**Scope:** whichever is available
+    <br>**Solution Process:** whichever is available
+    <br>**Country/Region:** whichever is available
 <br>![](/exercises/ex1/images/CALM_Create_TC_save.png)
 
-4.   The test case is now created on Cloud ALM side, as well as on TTA side. Jump to TTA by **clicking on the test case name** in the context area.
+4.   IF Cloud ALM is available AND INTEGRATED with TTA/ECT/Tosca: The test case is now created on Cloud ALM side, as well as on ECT/TTA side. Jump to TTA by **clicking on the test case name** in the context area.
 <br>![](/exercises/ex1/images/CALM_link_TTA.png)
-
 
 
 ## Exercise 1.3 - Initial Setup of the automated test case
