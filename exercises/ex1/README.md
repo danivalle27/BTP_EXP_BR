@@ -52,7 +52,7 @@ Provide your email during the class for access.
 
 ## Exercise 1.3 - The Automated test case
 
-1. Open the following    <br>![EXERCISE 1](/exercises/SAPBTP_EX1.doc)
+1. Open the following    <br>![EXERCISE 1](https://github.com/danivalle27/BTP_EXP_BR/blob/main/exercises/SAPBTP_EX1.docx) - CLICK ON VIEW RAW
 
 2. If your CloudALM integration worked, skip to step 1.5
 
