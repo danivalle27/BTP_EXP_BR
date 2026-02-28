@@ -38,13 +38,13 @@ Enter something like "yourname@email.com" and make sure the password is at least
 Click to open [SAP Cloud ALM](https://eaadev-9rdxnwlo.eu10-004.alm.cloud.sap/launchpad#Shell-home
 ) and follow the steps below: 
 1. Click on arzn6sthc.accounts.ondemand.com .
-<br>![](/exercises/ex0/images/click_tdct3ched.png)
+<br>![](exercises/ex0/images/calmlogin.png)
 
 2. Enter user and password 
    <br>**User:** g201_XX@btpexperience.com *(replace the XX with the number which is assigned to you!)*
    <br>**Password:** TO BE PROVIDED
    <br> and press button **Continue**.
-<br>![](/exercises/ex0/images/SignIn_CloudALM.png)
+<br>![](exercises/ex0/images/calm_login_select.png)
 
 ## NEXT
 
