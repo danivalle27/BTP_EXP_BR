@@ -1,6 +1,6 @@
 # Exercises
 
-## Exercise 1 - Create an automated test case with Tosca Cloud / SAP ECT
+## Exercise 1 - Create an automated test case with Tosca Cloud / SAP ECT / TTA
 
 In this exercise, you will learn how to create and record an automated test case using Tricentis Tosca Cloud / SAP ECT Cloud. If Cloud ALM is available, we will start with it. Otherwise, skip to the next [step 1.3](https://github.com/danivalle27/BTP_EXP_BR/edit/main/exercises/ex1/README.md#exercise-13---initial-setup-of-the-automated-test-case).
 
