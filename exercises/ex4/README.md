@@ -1,24 +1,11 @@
 
-# (Optional) Exercise 4 - Advanced features of TTA 
+# (Optional) Exercise 4 - Test Data
 
-In this optional exercise, you will explore advanced features of Tricentis Test Automation (TTA) that help improve test reusability and maintainability. You’ll learn how to create Reusable Test Blocks to standardize common processes across multiple test cases and how to manage Test Data Sets to store, update, and dynamically use data in the cloud. These advanced capabilities will help you reduce test maintenance and streamline large-scale automation scenarios.
+In this optional exercise, you will explore advanced features of Tricentis Test Automation (TTA) that help improve test reusability and maintainability. You’ll learn how to create Test Data Sets to store, update, and dynamically use data in the cloud. These advanced capabilities will help you reduce test maintenance and streamline large-scale automation scenarios.
 
-## Exercise 4.1 Reusable Test Blocks
 
-Reusable test steps are sets of steps that you can reuse across multiple test cases. If anything changes in your application under test and you update your reusable test steps, Tricentis Test Automation for SAP integrated with SAP Cloud ALM automatically updates all test cases that contain them. This reduces test maintenance effort, so you can focus on getting your application ready for release.
 
-1. Open your test case and add a new Test Steps Folder. Name it Create Sales Quotation.
-   <br>![](/exercises/ex4/images/CALM_RTB_01.png)
-2. Place the test steps according to the flow which are reusable as per the business requirements.
-3. Select the folder, click on the three dots at the end of the selected line and select the option "Convert to reusable test step"
-  <br>![](/exercises/ex4/images/CALM_RTB_02.png)
-4. In the following dialog, select the option "Manually set up business parameters later" and click button "Apply".<br>![](/exercises/ex4/images/CALM_RTB_03.png)
-5. The folder and its content is now migrated to a Reusable Test Block. You can access it via click on the options button (with the three dots) and "Jump to reusable test step"<br>![](/exercises/ex4/images/CALM_RTB_04.png)
-6. The reusable Test Block will open in a new tab. Select the folder and click again the options button (with the three dots). Click on "Create parameter (child to selected)".<br>![](/exercises/ex4/images/CALM_RTB_05.png)
-7. Go to Test Steps and enter the parameter name in curly brackets: {PL[<Business Parameter Name>]}.<br>![](/exercises/ex4/images/CALM_RTB_06.png)
-8. Pass the values in the parameters instead of in the Test steps to make it independent.
-<br>![](/exercises/ex4/images/CALM_RTB_07.png)
-## Exercise 4.2 Creation of Test Data Set
+## Creation of Test Data Set
 
 If you want to keep your data in cloud and you need to make periodic/regular update of those data using Automation, TTA have the inbuilt feature called Test Data set.
 
@@ -49,6 +36,6 @@ Repeat the same process for all the values you want to flow from Test Data Set (
 
 ## Summary
 
-You’ve now explored the advanced capabilities of Tricentis Test Automation for SAP, learning how to create Reusable Test Blocks for modular automation and how to leverage Test Data Sets for dynamic, cloud-based data handling. By using these features, you can make your automated tests more scalable, adaptable, and easier to maintain.
+You’ve now explored the advanced capabilities of Tricentis Test Automation for SAP, learning how to create Test Data Sets for dynamic, cloud-based data handling. By using these features, you can make your automated tests more scalable, adaptable, and easier to maintain.
 
 # Congratulation to finish all exercises!
