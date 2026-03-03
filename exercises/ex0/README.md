@@ -41,8 +41,8 @@ Click to open [SAP Cloud ALM](https://eaadev-9rdxnwlo.eu10-004.alm.cloud.sap/lau
     <br>![](/exercises/ex0/images/calmlogin.png)
 
 2. Enter user and password 
-   <br>**User:** g201_XX@btpexperience.com *(replace the XX with the number which is assigned to you!)*
-   <br>**Password:** TO BE PROVIDED
+   <br>**User:** G201_D1_XX@sapbtpexperience.com *(replace the XX with the number 01-45 which is assigned to you!)*
+   <br>**Password:** @Welcome01
    <br> and press button **Continue**.
     <br>![](/exercises/ex0/images/calm_login_select.png)
 
